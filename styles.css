@@ -154,3 +154,76 @@ body {
   background-color: var(--botao-azul-efeito);
   color: var(--cor-de-fundo);
 }
+
+@media screen and (max-width: 1200px) {
+  .principal {
+    background-size: cover;
+    padding: 2em 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .container__caixa {
+    margin: 0 2em;
+  }
+
+  .container__titulo {
+    font-size: 24px;
+  }
+
+  .container__imagem {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .container__botao {
+    font-size: 14px;
+    padding: 0.8em;
+  }
+
+  .container__aviso {
+    font-size: 10px;
+  }
+
+  .secundario {
+    margin: 0 2em;
+    text-align: center;
+  }
+
+  .secundario__imagem {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .descricao__titulo {
+    font-size: 36px;
+  }
+
+  .dispositivos__lista {
+    display: block;
+    margin: 3em 0;
+  }
+
+  .dispositivos__titulo {
+    font-size: 36px;
+  }
+
+  .lista__item {
+    font-size: 24px;
+  }
+
+  .rodape {
+    margin: 3em 1em;
+  }
+
+  .rodape__lista {
+    display: block;
+  }
+
+  .lista__link a {
+    margin: 0.5em 0;
+  }
+}
